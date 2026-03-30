@@ -2,18 +2,21 @@
        <div class="bod">
     <div class="Menu">
       <span class="Home">
+   
 
       </span>
 
       <span class="Works">
+    
 
       </span>
 
       <span class="Blog">
-
+      
       </span>
 
       <span class="Article">
+  
         
       </span>
     </div>
@@ -85,3 +88,53 @@ export default {
   name: "ArticlePage"  
 };
 </script>
+
+<style lang="scss">
+
+.app {
+  display: flex;
+  margin-left: 150px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+
+.year {
+  color: whitesmoke;
+  background-color: palevioletred;
+  font-size: 20px;
+  border-radius: 15%;
+  width: 200%;
+  height: 200%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.subt {
+  display: flex;
+  margin-left: 150px;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.art_text {
+  display: flex;
+  margin-left: 150px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.img-one {
+  margin-left: 150px;
+  height: auto;
+  width: auto;
+  margin-right: 150px;
+  
+}
+
+
+
+</style>
