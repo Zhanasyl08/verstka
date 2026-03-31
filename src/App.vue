@@ -27,16 +27,26 @@ export default {
 
 <style lang="scss" scoped>
 
+nav {
+   display: flex;
+  justify-content: flex-end;
+  gap: 40px; 
+  margin: 20px;
+  padding-right: 150px;
+}
+
 
 nav a {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 40px;
-  flex-wrap: wrap;
+    text-decoration: none;
+  color: black;
+  font-weight: 250;
+  font-size: 19px;
+  font-family:Arial, Helvetica, sans-serif;
+  
 
-
-
+}
+nav a:hover {
+  color: palevioletred;
 }
 </style>
 

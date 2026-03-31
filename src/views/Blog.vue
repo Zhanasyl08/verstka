@@ -139,3 +139,25 @@ export default {
   name: "BlogPage"  
 };
 </script>
+
+<style lang="scss">
+
+.body_blog {
+    max-width: 1000px;
+    margin: 0% auto;
+    padding: 0 20px;
+
+}
+
+.year {
+  background-color: palevioletred;
+  padding: 4px 10px;
+  border-radius: 999px;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+  font-weight: bold;
+  
+}
+</style>

@@ -27,15 +27,16 @@
       <h1>Design Dashboards with usability in mind</h1>
     </div>
 
-
+<div class="tag">
     <div class="year">2018</div>
 
     <div class="subt">Dashboard, User Experience Design
     </div>
-
+</div>
 
     <div class="art_text">
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit.
+      Exercitation veniam consequat sunt nostrud amet.
     </div>
 
 
@@ -51,10 +52,10 @@
   "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
     </div>
 
-      <div class="img-one">
+      <div class="img-two">
       <img src="@/assets/1-2.png">
     </div>
-      <div class="img-one">
+      <div class="img-three">
       <img src="@/assets/1-3.png">
     </div>
 
@@ -91,50 +92,61 @@ export default {
 
 <style lang="scss">
 
+
+
+
+.bod {
+  max-width: 1000px;
+  margin: 0% auto;
+  padding: 0 20px;
+
+}
+
 .app {
   display: flex;
-  margin-left: 150px;
-  font-size: 25px;
-  font-family: sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-top: 120px;
 }
 
 
+.tag{
+  display:flex;
+  gap:30px;
+
+}
 .year {
-  color: whitesmoke;
   background-color: palevioletred;
-  font-size: 20px;
-  border-radius: 15%;
-  width: 200%;
-  height: 200%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  padding: 4px 10px;
+  border-radius: 999px;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+  font-weight: bold;
+  
 }
 
 .subt {
-  display: flex;
-  margin-left: 150px;
   font-size: 22px;
-  font-family: sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 .art_text {
   display: flex;
-  margin-left: 150px;
-  font-size: 16px;
-  font-family: sans-serif;
+  margin-top: 20px;
+
 }
+
 
 .img-one {
-  margin-left: 150px;
-  height: auto;
-  width: auto;
-  margin-right: 150px;
+  display: flex;
   
+  width: 50%;
+  max-width: 120px;
+  height: auto;
+
 }
-
-
 
 </style>
