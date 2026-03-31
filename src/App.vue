@@ -2,10 +2,10 @@
   <div class="app_vue">
     <div class="nav">
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/Article">Article</router-link>
-      <router-link to="/Blog">Blog</router-link>
-      <router-link to="/Works">Works</router-link>
+      <router-link to="/" class="active">Home</router-link>
+      <router-link to="/Article" class="active">Article</router-link>
+      <router-link to="/Blog" class="active">Blog</router-link>
+      <router-link to="/Works" class="active">Works</router-link>
     </nav>
     </div>
 
@@ -33,21 +33,27 @@ nav {
   gap: 40px; 
   margin: 20px;
   padding-right: 150px;
-}
 
-
-nav a {
+  a {
     text-decoration: none;
   color: black;
   font-weight: 250;
   font-size: 19px;
   font-family:Arial, Helvetica, sans-serif;
   
+&:hover {
+      color: orange;
+    }
 
+    
 }
-nav a:hover {
-  color: palevioletred;
 }
+
+
+
+
+
+
 </style>
 
 

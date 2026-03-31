@@ -18,17 +18,25 @@
       </span>
     </div>
 
+<div class="blocks">
+
     <div class="title">
-        Hi, I am John, Creative Technologist
-        <img src="@/assets/avatar.png">
+        <div class="tot"><strong>
+        Hi, I am John,<br> Creative Technologist</strong></div>
+         <div class="subt">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis <br> enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
     </div>
-    <div class="subt">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        
+        <img src="@/assets/avatar.png" class="ava">
+    
     </div>
+    
+ 
 
     <div class="resume">
         <a href="">Download Resume</a>
 
+    </div>
     </div>
 
 
@@ -177,6 +185,41 @@ export default {
   font-weight: bold;
   
 }
+.blocks{
+    display: flex;
+    flex-direction: column;
+    .title {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    .tot {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin-top: 140px;
+        color: black;
+        font-size: 40px;
+        font-weight: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+   
+}
+ .ava {
+        width:210px;
+        max-width: 520px;
+        height: 210px;
+        filter: drop-shadow(10px 10px 18px 10px rgba(79, 122, 155, 0));
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+   
+  
+    }
+
+
+
 
 
 

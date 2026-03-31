@@ -23,70 +23,91 @@
         <strong>Blog</strong>
     </div>
 
-    <div class="UI">UI Interactions of the week
+    <div class="UI"><a href="">UI Interactions of the week</a>
 
 </div>
 
+<div class="teg">
 <div class="date_blog">
     12 Feb 2019
+</div>
+<div class="pipe">
+    |
 </div>
 
 <div class="hidden_blog">Express, Handlebars
     </div>
+</div>
 
-<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+      Exercitation veniam consequat sunt nostrud amet.</div>
 
 <div class="line_blog">
     <hr>
 </div>
 
-   <div class="UI">UI Interactions of the week
+   <div class="UI"><a href="">UI Interactions of the week</a>
 
 </div>
-
+<div class="teg">
 <div class="date_blog">
     12 Feb 2019
+</div>
+<div class="pipe">
+    |
 </div>
 
 <div class="hidden_blog">Express, Handlebars
     </div>
-
-<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+</div>
+<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+      Exercitation veniam consequat sunt nostrud amet.</div>
 
 <div class="line_blog">
     <hr>
 </div>
 
-   <div class="UI">UI Interactions of the week
+   <div class="UI"><a href="">UI Interactions of the week</a>
 
 </div>
 
+<div class="teg">
 <div class="date_blog">
     12 Feb 2019
+</div>
+<div class="pipe">
+    |
 </div>
 
 <div class="hidden_blog">Express, Handlebars
     </div>
+</div>
 
-<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+      Exercitation veniam consequat sunt nostrud amet.</div>
 
 <div class="line_blog">
     <hr>
 </div>
 
 
-   <div class="UI">UI Interactions of the week
+   <div class="UI"><a href="">UI Interactions of the week</a>
 
 </div>
 
+<div class="teg">
 <div class="date_blog">
     12 Feb 2019
+</div>
+<div class="pipe">
+    |
 </div>
 
 <div class="hidden_blog">Express, Handlebars
     </div>
-
-<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+</div>
+<div class="text_blog">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit.
+      Exercitation veniam consequat sunt nostrud amet.</div>
 
 
 
@@ -159,5 +180,75 @@ export default {
   color: whitesmoke;
   font-weight: bold;
   
+}
+
+
+.blog_tit {
+    font-size: 37px;
+    font-weight: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+
+}
+
+.UI {
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400px;
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        &:hover {
+            color: orangered
+
+        }
+
+
+    }
+}
+
+.teg { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    .date_blog {
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:10px;
+    }
+    .pipe {
+        font-weight: 2000px;
+        font-size: 20px;
+    }
+    .hidden_blog {
+        font-weight: 200px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+
+    }
+}
+
+.text_blog {
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 40px;
+
+}
+.line_blog {
+    font-weight: 15px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 </style>
